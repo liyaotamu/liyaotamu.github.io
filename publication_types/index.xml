@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types on Lixin Qu</title>
+    <link>https://LixinQu.github.io/publication_types/</link>
+    <description>Recent content in Publication_types on Lixin Qu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Lixin Qu</copyright>
+    <lastBuildDate>Thu, 01 May 2014 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://LixinQu.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>0</title>
+      <link>https://LixinQu.github.io/publication_types/0/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 -0500</pubDate>
+      
+      <guid>https://LixinQu.github.io/publication_types/0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>https://LixinQu.github.io/publication_types/2/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://LixinQu.github.io/publication_types/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>https://LixinQu.github.io/publication_types/3/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://LixinQu.github.io/publication_types/3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
