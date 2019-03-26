@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Lixin Qu</title>
+    <link>https://LixinQu.github.io/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Lixin Qu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Lixin Qu</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://LixinQu.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Internal-wave-driven mixing within submesoscale eddies</title>
+      <link>https://LixinQu.github.io/talk/ocng/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://LixinQu.github.io/talk/ocng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Near-inertial waves at submesoscale coherent vortices in a buoyancy-driven flow</title>
+      <link>https://LixinQu.github.io/talk/pecs/</link>
+      <pubDate>Mon, 26 Nov 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://LixinQu.github.io/talk/pecs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
