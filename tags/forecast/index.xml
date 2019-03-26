@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forecast on Lixin Qu</title>
+    <link>https://LixinQu.github.io/tags/forecast/</link>
+    <description>Recent content in Forecast on Lixin Qu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Lixin Qu</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://LixinQu.github.io/tags/forecast/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Northern South China Sea Forecast System</title>
+      <link>https://LixinQu.github.io/project/nscsf/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://LixinQu.github.io/project/nscsf/</guid>
+      <description>The Northern South China Sea Forecast System is a fully operational ocean circulation forecast model on the northern shelf of South China Sea based on the Regional Ocean Modeling System (ROMS). The system provides real-time analysis and 7-day forecast data for investigating coastal environments in that region. The model domain covers the entire Pearl River region and the northern shelf of South China Sea with a resolution of 1800m in the horizontal and 30 layers in the vertical.</description>
+    </item>
+    
+  </channel>
+</rss>
