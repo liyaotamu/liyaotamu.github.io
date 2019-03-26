@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Lixin Qu</title>
-    <link>https://LixinQu.github.io/post/</link>
-    <description>Recent content in Posts on Lixin Qu</description>
+    <title>Posts on Yao Li</title>
+    <link>https://liyaotamu.github.io/post/</link>
+    <description>Recent content in Posts on Yao Li</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2019 Lixin Qu</copyright>
+    <copyright>© 2019 Yao Li</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://LixinQu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://liyaotamu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+
+
   </channel>
 </rss>
