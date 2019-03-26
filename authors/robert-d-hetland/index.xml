@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robert D Hetland on Lixin Qu</title>
+    <link>https://LixinQu.github.io/authors/robert-d-hetland/</link>
+    <description>Recent content in Robert D Hetland on Lixin Qu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Lixin Qu</copyright>
+    <lastBuildDate>Mon, 25 Feb 2019 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://LixinQu.github.io/authors/robert-d-hetland/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Non-geostrophic baroclinic instability over sloping bathymetry: buoyant flow case</title>
+      <link>https://LixinQu.github.io/publication/qu-2019-ngbib/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://LixinQu.github.io/publication/qu-2019-ngbib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal resolution of wind forcing required for river plume simulations</title>
+      <link>https://LixinQu.github.io/publication/qu-2019-wind/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://LixinQu.github.io/publication/qu-2019-wind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The asymmetric continental shelf wave in response to the synoptic wind burst in a semienclosed double-shelf basin</title>
+      <link>https://LixinQu.github.io/publication/qu-2018-asymmetric/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://LixinQu.github.io/publication/qu-2018-asymmetric/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
