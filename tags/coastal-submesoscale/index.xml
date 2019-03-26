@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coastal Submesoscale on Lixin Qu</title>
+    <link>https://LixinQu.github.io/tags/coastal-submesoscale/</link>
+    <description>Recent content in Coastal Submesoscale on Lixin Qu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Lixin Qu</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://LixinQu.github.io/tags/coastal-submesoscale/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Submesoscale baroclinic instabilities</title>
+      <link>https://LixinQu.github.io/research/ngbib/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://LixinQu.github.io/research/ngbib/</guid>
+      <description>Coastal buoyancy-driven flows are often associated with stronger lateral density gradients than open ocean fronts, but are seldom observed to be associated with instabilities; in particular, baroclinic instabilities are seldom observed in river plumes, even though lateral buoyancy gradients within the fronts are strong. That contrasts the classical quasi-geostrophic (QG) theory of buoyancy-driven flow over a sloping bottom that predicts unconditional instability growth &amp;ndash; the QG assumption may not be reasonable in submesoscale, energetic coastal fronts.</description>
+    </item>
+    
+  </channel>
+</rss>
