@@ -70,10 +70,10 @@
 
     <item>
       <title>Northern South China Sea Forecast System</title>
-      <link>https://liyaotamu.github.io/project/nscsf/</link>
+      <link>https://liyaotamu.github.io/product/grbd/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
 
-      <guid>https://liyaotamu.github.io/project/nscsf/</guid>
+      <guid>https://liyaotamu.github.io/product/grbd/</guid>
       <description>&lt;p&gt;The Northern South China Sea Forecast System is a fully operational ocean circulation forecast model on the northern shelf of South China Sea based on the Regional Ocean Modeling System (&lt;a href=&#34;http://www.myroms.org&#34;&gt;ROMS&lt;/a&gt;). The system provides real-time analysis and 7-day forecast data for investigating coastal environments in that region. The model domain covers the entire Pearl River region and the northern shelf of South China Sea with a resolution of 1800m in the horizontal and 30 layers in the vertical. The water depth ranges from 5m to more than 3000m. The forecast simulation is initialized in 2017. The analysis and forecast fields of surface heat, momentum, and salt flux are provided by the &lt;a href=&#34;https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs&#34;&gt;Global Forecast System - NOAA&lt;/a&gt;. The ocean open boundary conditions are operationally created based on the &lt;a href=&#34;http://marine.copernicus.eu&#34;&gt;Copernicus - Marine Environment Monitoring Service&lt;/a&gt;. The real-time river discharge data are operationally parsed from the &lt;a href=&#34;http://xxfb.hydroinfo.gov.cn/ssIndex.html&#34;&gt;National Hydrologic Information Center - China Hydrology&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The model has 3-hourly outputs of temperature, salinity, sea level, and currents, which are posted on the &lt;a href=&#34;http://barataria.tamu.edu:8080/NSCS/mapviewer&#34;&gt;Data Portal&lt;/a&gt;.&lt;/p&gt;
@@ -82,10 +82,10 @@
 
     <item>
       <title>Northern South China Sea Hindcast</title>
-      <link>https://liyaotamu.github.io/project/nscsh/</link>
+      <link>https://liyaotamu.github.io/product/dem/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
 
-      <guid>https://liyaotamu.github.io/project/nscsh/</guid>
+      <guid>https://liyaotamu.github.io/product/dem/</guid>
       <description>&lt;p&gt;The hindcast is based on the Regional Ocean Modeling System (&lt;a href=&#34;http://www.myroms.org&#34;&gt;ROMS&lt;/a&gt;). The model domain covers the entire Pearl River region and the northern shelf of South China Sea with a resolution of 1800m in the horizontal (white lines in the figure above mark every 10 grid spaces) and 30 layers in the vertical. The water depth ranges from 5m to more than 3000m. The hindcast mode is initialized on January 1, 2007 and run to present, with the initial and open boundary conditions created from the &lt;a href=&#34;http://marine.copernicus.eu&#34;&gt;Copernicus - Marine environment monitoring service&lt;/a&gt;. The surface heat, momentum, and salt fluxes are provided by the &lt;a href=&#34;http://www.ecmwf.int/en/research/climate-reanalysis/era-interim&#34;&gt;ERA-Interim&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The model is &lt;strong&gt;non-assimilative&lt;/strong&gt; to preserve original hydrodynamic features. The model performance on SST in different regions has been assessed based on the &lt;a href=&#34;https://mur.jpl.nasa.gov&#34;&gt;Multi-scale Ultra-high Resolution Sea Surface Temperature&lt;/a&gt; satellite data (see the figure below).
