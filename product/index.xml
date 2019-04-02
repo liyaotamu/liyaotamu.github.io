@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Yao Li</title>
+    <link>https://liyaotamu.github.io/project/</link>
+    <description>Recent content in Projects on Yao Li</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 Yao Li</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 -0500</lastBuildDate>
+
+	<atom:link href="https://liyaotamu.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+
+
+    <item>
+      <title>Northern South China Sea Forecast System</title>
+      <link>https://liyaotamu.github.io/project/nscsf/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
+
+      <guid>https://liyaotamu.github.io/project/nscsf/</guid>
+      <description>The Northern South China Sea Forecast System is a fully operational ocean circulation forecast model on the northern shelf of South China Sea based on the Regional Ocean Modeling System (ROMS). The system provides real-time analysis and 7-day forecast data for investigating coastal environments in that region. The model domain covers the entire Pearl River region and the northern shelf of South China Sea with a resolution of 1800m in the horizontal and 30 layers in the vertical.</description>
+    </item>
+
+    <item>
+      <title>Northern South China Sea Hindcast</title>
+      <link>https://liyaotamu.github.io/project/nscsh/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0500</pubDate>
+
+      <guid>https://liyaotamu.github.io/project/nscsh/</guid>
+      <description>The hindcast is based on the Regional Ocean Modeling System (ROMS). The model domain covers the entire Pearl River region and the northern shelf of South China Sea with a resolution of 1800m in the horizontal (white lines in the figure above mark every 10 grid spaces) and 30 layers in the vertical. The water depth ranges from 5m to more than 3000m. The hindcast mode is initialized on January 1, 2007 and run to present, with the initial and open boundary conditions created from the Copernicus - Marine environment monitoring service.</description>
+    </item>
+
+  </channel>
+</rss>
