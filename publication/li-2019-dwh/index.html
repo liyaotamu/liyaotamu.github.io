@@ -1,144 +1,42 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 3.3.0">
   <meta name="generator" content="Hugo 0.53" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <meta name="author" content="Yao Li">
-
-
-
-
-
-
-  <meta name="description" content="Wind is a primary forcing agent for river plume variability. Consequently, the temporal resolution of wind forcing is an important factor to consider for river plume simulations. This study evaluates river plume simulation errors caused by temporal subsampling of wind forcing data. We use an idealized model of a river plume over a continental shelf and force the model with temporally filtered winds to quantify the effect of temporal subsampling on simulation accuracy. The simulation error is proportional to the fraction of energy missing in the high-frequency wind absent from the forcing. These results set requirements for temporal wind resolution in realistic simulations of river plumes. Spectral analysis of observed wind records at the Mississippi River, Columbia River, and Merrimack River regions indicates that, for simulation errors due to insufficient temporal wind resolution to be smaller than 5 percent of the variance, 3-hourly or 4-hourly wind data are reasonable. Though horizontal variations in wind forcing are lost, analyzing FFT spectrum of a single-point wind measurement in the simulation region is helpful for estimating simulation errors due to temporal resolution, and hence aid in properly selecting temporal resolutions.">
-
-
-  <link rel="alternate" hreflang="en-us" href="https://liyaotamu.github.io/publication/qu-2019-wind/">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <meta name="description" content="Eight years after the Deepwater Horizon (DwH) oil spill, the consequences (if any) to the spatial and temporal magnitude of primary productivity remains to be investigated. Here, we used the normalized Fluorescence Line Height (nFLH) from the Moderate Resolution Imaging Spectroradiometer (MODIS) as an indicator of chlorophyll a concentration (Chl a). First, from the spatiotemporal variations of nFLH between 2001 and 2017, a reduction of nFLH after the DwH oil spill for a relatively long period (from 2011 to 2014) was observed. Second, a stepwise multiple regression model was used to examine which of the following environmental factors could explain the annual variations in nFLH: river discharge, total nitrogen load, total phosphorus load, photosynthetically available radiation, sea surface temperature and wind speed. Total nutrient loading was determined from the Mississippi and Atchafalaya Rivers. Results show that river discharge, sea surface temperature, and wind speed are the primary factors that regulate annual nFLH variations in the DwH area in pre-spill years. In contrast, this same model could not explain the reduction of nFLH for four years after the DwH oil spill. After 2015, primary productivity appears to have resumed to the pre-spill concentrations. Here we suggest that the nFLH reduction between 2011 and 2014 could have originated from the DwH oil spill although the exact mechanism is yet to be elucidated.">
+  <link rel="alternate" hreflang="en-us" href="https://liyaotamu.github.io/publication/li-2019-dwh/">
   <meta name="theme-color" content="#2962ff">
-
-
-
-
-
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-
-
-
-
-
-
-
-
-
-
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
-
-
-
-
-
-
-
-
-
-
-
-
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
-
-
   <link rel="stylesheet" href="/styles.css">
-
-
-
-
-
-
-
   <link rel="alternate" href="https://liyaotamu.github.io/index.xml" type="application/rss+xml" title="Yao Li">
   <link rel="feed" href="https://liyaotamu.github.io/index.xml" type="application/rss+xml" title="Yao Li">
-
-
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
-
-  <link rel="canonical" href="https://liyaotamu.github.io/publication/qu-2019-wind/">
-
-
-
-
-
-
-
-
+  <link rel="canonical" href="https://liyaotamu.github.io/publication/li-2019-dwh/">
   <meta property="twitter:card" content="summary">
-
   <meta property="og:site_name" content="Yao Li">
-  <meta property="og:url" content="https://liyaotamu.github.io/publication/qu-2019-wind/">
-  <meta property="og:title" content="Temporal resolution of wind forcing required for river plume simulations | Yao Li">
-  <meta property="og:description" content="Wind is a primary forcing agent for river plume variability. Consequently, the temporal resolution of wind forcing is an important factor to consider for river plume simulations. This study evaluates river plume simulation errors caused by temporal subsampling of wind forcing data. We use an idealized model of a river plume over a continental shelf and force the model with temporally filtered winds to quantify the effect of temporal subsampling on simulation accuracy. The simulation error is proportional to the fraction of energy missing in the high-frequency wind absent from the forcing. These results set requirements for temporal wind resolution in realistic simulations of river plumes. Spectral analysis of observed wind records at the Mississippi River, Columbia River, and Merrimack River regions indicates that, for simulation errors due to insufficient temporal wind resolution to be smaller than 5 percent of the variance, 3-hourly or 4-hourly wind data are reasonable. Though horizontal variations in wind forcing are lost, analyzing FFT spectrum of a single-point wind measurement in the simulation region is helpful for estimating simulation errors due to temporal resolution, and hence aid in properly selecting temporal resolutions."><meta property="og:image" content="https://liyaotamu.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://liyaotamu.github.io/publication/li-2019-dwh/">
+  <meta property="og:title" content="Potential influence of the Deepwater Horizon oil spill on phytoplankton primary productivity in the northern Gulf of Mexico | Yao Li">
+  <meta property="og:description" content="Eight years after the Deepwater Horizon (DwH) oil spill, the consequences (if any) to the spatial and temporal magnitude of primary productivity remains to be investigated. Here, we used the normalized Fluorescence Line Height (nFLH) from the Moderate Resolution Imaging Spectroradiometer (MODIS) as an indicator of chlorophyll a concentration (Chl a). First, from the spatiotemporal variations of nFLH between 2001 and 2017, a reduction of nFLH after the DwH oil spill for a relatively long period (from 2011 to 2014) was observed. Second, a stepwise multiple regression model was used to examine which of the following environmental factors could explain the annual variations in nFLH: river discharge, total nitrogen load, total phosphorus load, photosynthetically available radiation, sea surface temperature and wind speed. Total nutrient loading was determined from the Mississippi and Atchafalaya Rivers. Results show that river discharge, sea surface temperature, and wind speed are the primary factors that regulate annual nFLH variations in the DwH area in pre-spill years. In contrast, this same model could not explain the reduction of nFLH for four years after the DwH oil spill. After 2015, primary productivity appears to have resumed to the pre-spill concentrations. Here we suggest that the nFLH reduction between 2011 and 2014 could have originated from the DwH oil spill although the exact mechanism is yet to be elucidated."><meta property="og:image" content="https://liyaotamu.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
-
-  <meta property="article:published_time" content="2019-02-01T00:00:00-06:00">
-
-  <meta property="article:modified_time" content="2019-02-01T00:00:00-06:00">
-
-
-
-
-
-
-  <title>Temporal resolution of wind forcing required for river plume simulations | Yao Li</title>
-
+  <meta property="article:published_time" content="2019-02-25T00:00:00-06:00">
+  <meta property="article:modified_time" content="2019-02-25T00:00:00-06:00">
+  <title>Potential influence of the Deepwater Horizon oil spill on phytoplankton primary productivity in the northern Gulf of Mexico | Yao Li</title>
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
   <aside class="search-results" id="search">
   <div class="container">
     <section class="search-header">
-
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
           <h1>Search</h1>
@@ -147,487 +45,185 @@
           <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
         </div>
       </div>
-
       <div id="search-box">
-
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
         autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
-
       </div>
-
     </section>
     <section class="section-search-results">
-
       <div id="search-hits">
-
       </div>
-
     </section>
   </div>
 </aside>
-
-
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
-
-
       <a class="navbar-brand" href="/">Yao Li</a>
-
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span><i class="fas fa-bars"></i></span>
       </button>
-
-
-
     <div class="collapse navbar-collapse" id="navbar">
-
-
-
       <ul class="navbar-nav mr-auto">
-
-
-
-
-
-
-
-
-
-
         <li class="nav-item">
           <a class="nav-link" href="/#about">
-
             <span>Home</span>
-
           </a>
         </li>
-
-
-
-
-
-
-
-
-
-
-
-
         <li class="nav-item">
           <a class="nav-link" href="/#research">
-
             <span>Research</span>
-
           </a>
         </li>
-
-
-
-
-
-
-
-
-
-
-
-
         <li class="nav-item">
           <a class="nav-link" href="/#publications">
-
             <span>Publications</span>
-
           </a>
         </li>
-
-
-
-
-
-
-
-
-
-
-
-
         <li class="nav-item">
-          <a class="nav-link" href="/#projects">
-
-            <span>Projects</span>
-
+          <a class="nav-link" href="/#products">
+            <span>Products</span>
           </a>
         </li>
-
-
-
-
-
-
-
-
-
-
-
-
         <li class="nav-item">
-          <a class="nav-link" href="/#talks">
-
-            <span>Talks</span>
-
+          <a class="nav-link" href="/#presentations">
+            <span>Presentations</span>
           </a>
         </li>
-
-
-
-
-
-
-
-
-
-
-
-
         <li class="nav-item">
           <a class="nav-link" href="/files/cv.pdf">
-
             <span>CV</span>
-
           </a>
         </li>
-
-
-
-
-
-
-
-
-
-
-
-
         <li class="nav-item">
           <a class="nav-link" href="/#contact">
-
             <span>Contact</span>
-
           </a>
         </li>
-
-
-
-
-
       </ul>
       <ul class="navbar-nav ml-auto">
-
-
-
-
-
         <li class="nav-item">
           <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
         </li>
-
-
-
-
-
         <li class="nav-item">
           <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
         </li>
-
-
       </ul>
-
     </div>
   </div>
 </nav>
-
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="article-container pt-3">
-  <h1 itemprop="name">Temporal resolution of wind forcing required for river plume simulations</h1>
-
-
-
-
-
-
-
-<meta content="2019-02-01 00:00:00 -0600 CST" itemprop="datePublished">
-<meta content="2019-02-01 00:00:00 -0600 CST" itemprop="dateModified">
-
+  <h1 itemprop="name">Potential influence of the Deepwater Horizon oil spill on phytoplankton primary productivity in the northern Gulf of Mexico</h1>
+<meta content="2019-02-25 00:00:00 -0600 CST" itemprop="datePublished">
+<meta content="2019-02-25 00:00:00 -0600 CST" itemprop="dateModified">
 <div class="article-metadata">
-
-
-
-
-
   <div>
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
-        <a href="/authors/lixin-qusup-sup/"><strong>Yao Li</strong><sup>*</sup></a>
+        <a href="/authors/yao-li/"><strong>Yao Li</strong></a>
       </span>
     </span>,
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
-        <a href="/authors/robert-d-hetland/">Robert D Hetland</a>
+        <a href="/authors/chuanmin-hu/">Chuanmin Hu</a>
+      </span>
+    </span>,
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        <a href="/authors/antonietta-quigg/">Antonietta Quigg</a>
+      </span>
+    </span>,
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        <a href="/authors/huilin-gao/">Huilin Gao<sup>*</sup></a>
       </span>
     </span>
 
   </div>
-
-
-
-
   <span class="article-date">
-
-
-
-
-    <time>February 2019</time>
+    <time>April 2019</time>
   </span>
-
-
-
-
-
-
-
-
-
-
-
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Temporal%20resolution%20of%20wind%20forcing%20required%20for%20river%20plume%20simulations&amp;url=https%3a%2f%2fLixinQu.github.io%2fpublication%2fqu-2019-wind%2f"
+         href="https://twitter.com/intent/tweet?text=Potential%20influence%20of%20the%20Deepwater%20Horizon%20oil%20spill%20on%20phytoplankton%20primary%20productivity%20in%20the%20northern%20Gulf%20of%20Mexico&amp;url=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-dwh%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fLixinQu.github.io%2fpublication%2fqu-2019-wind%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-dwh%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fLixinQu.github.io%2fpublication%2fqu-2019-wind%2f&amp;title=Temporal%20resolution%20of%20wind%20forcing%20required%20for%20river%20plume%20simulations"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fliyaotamu.github.io%2fpublication%2fli-2019-dwh%2f&amp;title=Potential%20influence%20of%20the%20Deepwater%20Horizon%20oil%20spill%20on%20phytoplankton%20primary%20productivity%20in%20the%20northern%20Gulf%20of%20Mexico"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fLixinQu.github.io%2fpublication%2fqu-2019-wind%2f&amp;title=Temporal%20resolution%20of%20wind%20forcing%20required%20for%20river%20plume%20simulations"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-dwh%2f&amp;title=Potential%20influence%20of%20the%20Deepwater%20Horizon%20oil%20spill%20on%20phytoplankton%20primary%20productivity%20in%20the%20northern%20Gulf%20of%20Mexico"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Temporal%20resolution%20of%20wind%20forcing%20required%20for%20river%20plume%20simulations&amp;body=https%3a%2f%2fLixinQu.github.io%2fpublication%2fqu-2019-wind%2f">
+         href="mailto:?subject=Potential%20influence%20of%20the%20Deepwater%20Horizon%20oil%20spill%20on%20phytoplankton%20primary%20productivity%20in%20the%20northern%20Gulf%20of%20Mexico&amp;body=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-dwh%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
   </ul>
 </div>
-
-
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="btn-links mb-3">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/qu-2019-wind/qu-2019-wind.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1029/2018JC014593" target="_blank" rel="noopener">
-
-    DOI
-  </a>
-
-
 </div>
-
-
-
-</div>
-
-
-
   <div class="article-container">
-
-
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Wind is a primary forcing agent for river plume variability. Consequently, the temporal resolution of wind forcing is an important factor to consider for river plume simulations. This study evaluates river plume simulation errors caused by temporal subsampling of wind forcing data. We use an idealized model of a river plume over a continental shelf and force the model with temporally filtered winds to quantify the effect of temporal subsampling on simulation accuracy. The simulation error is proportional to the fraction of energy missing in the high-frequency wind absent from the forcing. These results set requirements for temporal wind resolution in realistic simulations of river plumes. Spectral analysis of observed wind records at the Mississippi River, Columbia River, and Merrimack River regions indicates that, for simulation errors due to insufficient temporal wind resolution to be smaller than 5 percent of the variance, 3-hourly or 4-hourly wind data are reasonable. Though horizontal variations in wind forcing are lost, analyzing FFT spectrum of a single-point wind measurement in the simulation region is helpful for estimating simulation errors due to temporal resolution, and hence aid in properly selecting temporal resolutions.</p>
-
-
-
+    <p class="pub-abstract" itemprop="text">Eight years after the Deepwater Horizon (DwH) oil spill, the consequences (if any) to the spatial and temporal magnitude of primary productivity remains to be investigated. Here, we used the normalized Fluorescence Line Height (nFLH) from the Moderate Resolution Imaging Spectroradiometer (MODIS) as an indicator of chlorophyll a concentration (Chl a). First, from the spatiotemporal variations of nFLH between 2001 and 2017, a reduction of nFLH after the DwH oil spill for a relatively long period (from 2011 to 2014) was observed. Second, a stepwise multiple regression model was used to examine which of the following environmental factors could explain the annual variations in nFLH: river discharge, total nitrogen load, total phosphorus load, photosynthetically available radiation, sea surface temperature and wind speed. Total nutrient loading was determined from the Mississippi and Atchafalaya Rivers. Results show that river discharge, sea surface temperature, and wind speed are the primary factors that regulate annual nFLH variations in the DwH area in pre-spill years. In contrast, this same model could not explain the reduction of nFLH for four years after the DwH oil spill. After 2015, primary productivity appears to have resumed to the pre-spill concentrations. Here we suggest that the nFLH reduction between 2011 and 2014 could have originated from the DwH oil spill although the exact mechanism is yet to be elucidated.</p>
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-
-
-
-
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#3">
+              Manuscript
             </a>
-
           </div>
         </div>
       </div>
       <div class="col-md-1"></div>
     </div>
     <div class="d-md-none space-below"></div>
-
-
-
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Journal of Geophysical Research: Oceans</em></div>
+          <div class="col-12 col-md-9"><em>Environmental Research Letters (in review)</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
     </div>
     <div class="d-md-none space-below"></div>
-
-
     <div class="space-below"></div>
-
     <div class="article-style"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
 </div>
-
-
-
 <div class="container">
   <footer class="site-footer">
-
-
   <p class="powered-by">
     © 2019 Yao Li &middot;
-
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-
     <span class="float-right" aria-hidden="true">
       <a href="#" id="back_to_top">
         <span class="button_icon">
@@ -635,13 +231,9 @@
         </span>
       </a>
     </span>
-
   </p>
 </footer>
-
 </div>
-
-
 <div id="modal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -666,50 +258,15 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-
-
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-
-
       <script async defer src="//maps.googleapis.com/maps/api/js?key="></script>
-
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs=" crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-
-
     <script>hljs.initHighlightingOnLoad();</script>
-
-
-
-
     <script>
       const search_index_filename = "/index.json";
       const i18n = {
@@ -719,18 +276,11 @@
       };
       const content_type = {
         'post': "Posts",
-        'project': "Projects",
+        'product': "Products",
         'publication' : "Publications",
-        'talk' : "Talks"
+        'presentation' : "Presentations"
         };
     </script>
-
-
-
-
-
-
-
     <script id="search-hit-fuse-template" type="text/x-template">
       <div class="search-hit" id="summary-{{key}}">
       <div class="search-hit-content">
@@ -742,30 +292,8 @@
       </div>
       </div>
     </script>
-
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="/js/academic.min.07fbebbbf71b021c8836e1d7ecffa489.js"></script>
-
   </body>
 </html>
