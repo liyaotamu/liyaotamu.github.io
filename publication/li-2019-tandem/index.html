@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+tandem<!DOCTYPE html>
 <html lang="en-us">
 <head>
   <meta charset="utf-8">
@@ -7,8 +7,8 @@
   <meta name="generator" content="Source Themes Academic 3.3.0">
   <meta name="generator" content="Hugo 0.53" />
   <meta name="author" content="Yao Li">
-  <meta name="description" content="Despite the importance of precise bathymetry information for reservoirs, there is a dearth of a consistent reservoir bathymetry database which is locally practical and globally available. Here we developed an approach to generate bathymetry for global reservoirs with a 30 m resolution by combining multiple satellite altimetry datasets and Landsat based water classification datasets. The satellite altimetry data include ICESat/GLAS Global Land Surface Altimetry dataset and radar altimetry datasets reported by Global Reservoir and Lake Monitor (G-REALM) and Hydroweb, and the Landsat based water classification datasets comprise the Surface Water Occurrence (SWO) provided by Global Surface Water Explorer (GSWE) and the improved version of Monthly Water History (MWH) provided by Zhao and Gao (2018). First, Area-Elevation (A-E) relationships for the identified reservoirs were derived using two methods according to the altimetry data source. For the ICESat/GLAS data, the A-E relationship was established by pairing the elevation tracks with the SWO image. While for the G-REALM and Hydroweb datasets, A-E relationships were obtained by connecting the monthly elevation with the monthly water surface area provided by the improved MWH. Then, the A-E relationship was in turn applied to the SWO image to obtain the bathymetry values for the dynamic area. Finally, if the remotely sensed bathymetry cannot represent the full bathymetry in terms of the storage, an extrapolation method was adopted to help achieve the full bathymetry. The remotely sensed bathymetry results were primarily validated against (1) A-E and V-E (Volume-Elevation) relationships for fifteen reservoirs, with RMSE values of elevation from 0.10 m to 1.99 m and NRMSE values of storage from 0.50% to 5.07%, and (2) survey bathymetry values for four reservoirs, with R2 values from 0.82 to 0.99 and RMSE values from 0.13 m to 2.31 m. While for the projected bathymetry, it has relatively large uncertainties and errors from the validation results of Lake Mead against A-E and V-E relationships, and the survey bathymetry. The resultant database includes 180 global reservoirs (with a mean R2 of A-E relationship 0.86), representing a total volume of 3030.69 km3 (48.91% of the total global reservoir capacity), which will contribute to various studies and applications such as global hydrological models and water resource managements.">
-  <link rel="alternate" hreflang="en-us" href="https://liyaotamu.github.io/publication/li-2019-globalbathy/">
+  <meta name="description" content="The Area-Volume-Elevation (AVE) curve is the most important physical characteristic of a reservoir, which plays a key role in multiple purposes of reservoir operations (e.g., flood control, water supply, and storage monitoring). Here we present a method to derive the reservoir AVE curve using TanDEM-X data and test it over Lake Mead. First, the maximum water extent from 1984 to 2015 was used to extract the TanDEM-X data for the reservoir area. Then, the water indication mask (WAM) was applied to the extracted TanDEM-X data to obtain the valid values which were then used to derive the AVE curve. Validations against the lidar surveyed curve suggest high-accuracy Elevation-Area (E-A) relationship (with an R2 of 1.00 and an NRMSE of 2.19%) and Elevation-Volume (E-V) relationship (with an R2 of 1.0 and an NRMSE of 0.87%). This method can be extended to global reservoirs using the available DEM datasets, which will contribute to many aspects of geoscience studies and applications.">
+  <link rel="alternate" hreflang="en-us" href="https://liyaotamu.github.io/publication/li-2019-tandem/">
   <meta name="theme-color" content="#2962ff">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
@@ -22,16 +22,16 @@
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
-  <link rel="canonical" href="https://liyaotamu.github.io/publication/li-2019-globalbathy/">
+  <link rel="canonical" href="https://liyaotamu.github.io/publication/li-2019-tandem/">
   <meta property="twitter:card" content="summary">
   <meta property="og:site_name" content="Yao Li">
-  <meta property="og:url" content="https://liyaotamu.github.io/publication/li-2019-globalbathy/">
-  <meta property="og:title" content="A high-resolution bathymetry database for global reservoirs using multi-source satellite imagery and altimetry | Yao Li">
-  <meta property="og:description" content="Despite the importance of precise bathymetry information for reservoirs, there is a dearth of a consistent reservoir bathymetry database which is locally practical and globally available. Here we developed an approach to generate bathymetry for global reservoirs with a 30 m resolution by combining multiple satellite altimetry datasets and Landsat based water classification datasets. The satellite altimetry data include ICESat/GLAS Global Land Surface Altimetry dataset and radar altimetry datasets reported by Global Reservoir and Lake Monitor (G-REALM) and Hydroweb, and the Landsat based water classification datasets comprise the Surface Water Occurrence (SWO) provided by Global Surface Water Explorer (GSWE) and the improved version of Monthly Water History (MWH) provided by Zhao and Gao (2018). First, Area-Elevation (A-E) relationships for the identified reservoirs were derived using two methods according to the altimetry data source. For the ICESat/GLAS data, the A-E relationship was established by pairing the elevation tracks with the SWO image. While for the G-REALM and Hydroweb datasets, A-E relationships were obtained by connecting the monthly elevation with the monthly water surface area provided by the improved MWH. Then, the A-E relationship was in turn applied to the SWO image to obtain the bathymetry values for the dynamic area. Finally, if the remotely sensed bathymetry cannot represent the full bathymetry in terms of the storage, an extrapolation method was adopted to help achieve the full bathymetry. The remotely sensed bathymetry results were primarily validated against (1) A-E and V-E (Volume-Elevation) relationships for fifteen reservoirs, with RMSE values of elevation from 0.10 m to 1.99 m and NRMSE values of storage from 0.50% to 5.07%, and (2) survey bathymetry values for four reservoirs, with R2 values from 0.82 to 0.99 and RMSE values from 0.13 m to 2.31 m. While for the projected bathymetry, it has relatively large uncertainties and errors from the validation results of Lake Mead against A-E and V-E relationships, and the survey bathymetry. The resultant database includes 180 global reservoirs (with a mean R2 of A-E relationship 0.86), representing a total volume of 3030.69 km3 (48.91% of the total global reservoir capacity), which will contribute to various studies and applications such as global hydrological models and water resource managements."><meta property="og:image" content="https://liyaotamu.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://liyaotamu.github.io/publication/li-2019-tandem/">
+  <meta property="og:title" content="A Method to Derive Reservoir Area-Volume-Elevation Curve Using TanDEM-X Data | Yao Li">
+  <meta property="og:description" content="The Area-Volume-Elevation (AVE) curve is the most important physical characteristic of a reservoir, which plays a key role in multiple purposes of reservoir operations (e.g., flood control, water supply, and storage monitoring). Here we present a method to derive the reservoir AVE curve using TanDEM-X data and test it over Lake Mead. First, the maximum water extent from 1984 to 2015 was used to extract the TanDEM-X data for the reservoir area. Then, the water indication mask (WAM) was applied to the extracted TanDEM-X data to obtain the valid values which were then used to derive the AVE curve. Validations against the lidar surveyed curve suggest high-accuracy Elevation-Area (E-A) relationship (with an R2 of 1.00 and an NRMSE of 2.19%) and Elevation-Volume (E-V) relationship (with an R2 of 1.0 and an NRMSE of 0.87%). This method can be extended to global reservoirs using the available DEM datasets, which will contribute to many aspects of geoscience studies and applications."><meta property="og:image" content="https://liyaotamu.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   <meta property="article:published_time" content="2019-02-25T00:00:00-06:00">
   <meta property="article:modified_time" content="2019-02-25T00:00:00-06:00">
-  <title>A high-resolution bathymetry database for global reservoirs using multi-source satellite imagery and altimetry | Yao Li</title>
+  <title>A Method to Derive Reservoir Area-Volume-Elevation Curve Using TanDEM-X Data | Yao Li</title>
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
   <aside class="search-results" id="search">
@@ -114,7 +114,7 @@
 </nav>
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 <div class="article-container pt-3">
-  <h1 itemprop="name">A high-resolution bathymetry database for global reservoirs using multi-source satellite imagery and altimetry</h1>
+  <h1 itemprop="name">A Method to Derive Reservoir Area-Volume-Elevation Curve Using TanDEM-X Data</h1>
 <meta content="2019-02-25 00:00:00 -0600 CST" itemprop="datePublished">
 <meta content="2019-02-25 00:00:00 -0600 CST" itemprop="dateModified">
 <div class="article-metadata">
@@ -128,11 +128,6 @@
       <span itemprop="name">
         <a href="/authors/huilin-gao/">Huilin Gao<sup>*</sup></a>
       </span>
-    </span>,
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        <a href="/authors/gang-zhao/">Gang Zhao</a>
-      </span>
     </span>
   </div>
   <span class="article-date">
@@ -142,35 +137,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=A%20high-resolution%20bathymetry%20database%20for%20global%20reservoirs%20using%20multi-source%20satellite%20imagery%20and%20altimetry&amp;url=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-globalbathy%2f"
+         href="https://twitter.com/intent/tweet?text=A%20Method%20to%20Derive%20Reservoir%20Area-Volume-Elevation%20Curve%20Using%20TanDEM-X%20Data&amp;url=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-tandem%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-globalbathy%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-tandem%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fliyaotamu.github.io%2fpublication%2fli-2019-globalbathy%2f&amp;title=A%20high-resolution%20bathymetry%20database%20for%20global%20reservoirs%20using%20multi-source%20satellite%20imagery%20and%20altimetry"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fliyaotamu.github.io%2fpublication%2fli-2019-tandem%2f&amp;title=A%20Method%20to%20Derive%20Reservoir%20Area-Volume-Elevation%20Curve%20Using%20TanDEM-X%20Data"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-globalbathy%2f&amp;title=A%20high-resolution%20bathymetry%20database%20for%20global%20reservoirs%20using%20multi-source%20satellite%20imagery%20and%20altimetry"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-tandem%2f&amp;title=A%20Method%20to%20Derive%20Reservoir%20Area-Volume-Elevation%20Curve%20Using%20TanDEM-X%20Data"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=A%20high-resolution%20bathymetry%20database%20for%20global%20reservoirs%20using%20multi-source%20satellite%20imagery%20and%20altimetry&amp;body=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-globalbathy%2f">
+         href="mailto:?subject=A%20Method%20to%20Derive%20Reservoir%20Area-Volume-Elevation%20Curve%20Using%20TanDEM-X%20Data&amp;body=https%3a%2f%2fliyao.pro%2fpublication%2fli-2019-tandem%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -180,7 +175,7 @@
 </div>
   <div class="article-container">
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Despite the importance of precise bathymetry information for reservoirs, there is a dearth of a consistent reservoir bathymetry database which is locally practical and globally available. Here we developed an approach to generate bathymetry for global reservoirs with a 30 m resolution by combining multiple satellite altimetry datasets and Landsat based water classification datasets. The satellite altimetry data include ICESat/GLAS Global Land Surface Altimetry dataset and radar altimetry datasets reported by Global Reservoir and Lake Monitor (G-REALM) and Hydroweb, and the Landsat based water classification datasets comprise the Surface Water Occurrence (SWO) provided by Global Surface Water Explorer (GSWE) and the improved version of Monthly Water History (MWH) provided by Zhao and Gao (2018). First, Area-Elevation (A-E) relationships for the identified reservoirs were derived using two methods according to the altimetry data source. For the ICESat/GLAS data, the A-E relationship was established by pairing the elevation tracks with the SWO image. While for the G-REALM and Hydroweb datasets, A-E relationships were obtained by connecting the monthly elevation with the monthly water surface area provided by the improved MWH. Then, the A-E relationship was in turn applied to the SWO image to obtain the bathymetry values for the dynamic area. Finally, if the remotely sensed bathymetry cannot represent the full bathymetry in terms of the storage, an extrapolation method was adopted to help achieve the full bathymetry. The remotely sensed bathymetry results were primarily validated against (1) A-E and V-E (Volume-Elevation) relationships for fifteen reservoirs, with RMSE values of elevation from 0.10 m to 1.99 m and NRMSE values of storage from 0.50% to 5.07%, and (2) survey bathymetry values for four reservoirs, with R2 values from 0.82 to 0.99 and RMSE values from 0.13 m to 2.31 m. While for the projected bathymetry, it has relatively large uncertainties and errors from the validation results of Lake Mead against A-E and V-E relationships, and the survey bathymetry. The resultant database includes 180 global reservoirs (with a mean R2 of A-E relationship 0.86), representing a total volume of 3030.69 km3 (48.91% of the total global reservoir capacity), which will contribute to various studies and applications such as global hydrological models and water resource managements.</p>
+    <p class="pub-abstract" itemprop="text">The Area-Volume-Elevation (AVE) curve is the most important physical characteristic of a reservoir, which plays a key role in multiple purposes of reservoir operations (e.g., flood control, water supply, and storage monitoring). Here we present a method to derive the reservoir AVE curve using TanDEM-X data and test it over Lake Mead. First, the maximum water extent from 1984 to 2015 was used to extract the TanDEM-X data for the reservoir area. Then, the water indication mask (WAM) was applied to the extracted TanDEM-X data to obtain the valid values which were then used to derive the AVE curve. Validations against the lidar surveyed curve suggest high-accuracy Elevation-Area (E-A) relationship (with an R2 of 1.00 and an NRMSE of 2.19%) and Elevation-Volume (E-V) relationship (with an R2 of 1.0 and an NRMSE of 0.87%). This method can be extended to global reservoirs using the available DEM datasets, which will contribute to many aspects of geoscience studies and applications.</p>
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
@@ -201,7 +196,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Remote Sensing of Environment (to be submitted)</em></div>
+          <div class="col-12 col-md-9"><em>IEEE Geoscience and Remote Sensing Letters (to be submitted)</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
